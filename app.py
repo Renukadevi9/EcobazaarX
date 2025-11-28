@@ -1,5 +1,4 @@
 # app.py
-
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from recommender import recommend_similar, chatbot_recommend, load_products
